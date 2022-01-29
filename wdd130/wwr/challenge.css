@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(252, 166, 201);
+    text-align: center;
+    margin: 0em 38%;
+    font-family: 'Roboto', normal;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+.p1 {
+    color: white;
+}
+
+header:hover {
+    color: black;
+}
+
+ol {
+    /* margin-left: 40%; */
+    text-align: left;
+    font-weight: bold;
+}
+
+li {
+    padding-top: 10px;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.quote {
+    color: white;
+    width: 240px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'DM Serif Display', serif;
+    font-size: 25px;
+}
+
+.foot {
+    font-size: small;
+}
