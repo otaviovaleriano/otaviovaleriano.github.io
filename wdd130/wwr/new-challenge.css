@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+.banner {
+    background-color: black;
+    display: block;
+    margin: auto;
+    max-width: 85%;
+}
+
+main {
+    max-width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: gray;
+    text-align: center;
+    margin: auto;
+}
+
+.circles {
+    border-radius: 50%;
+    border: rgb(80, 78, 78) solid 10px;
+    width: 50%;
+    height: 90%;
+}

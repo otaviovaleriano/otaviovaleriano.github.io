@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@500&family=Trade+Winds&display=swap');
+:root {
+    --heading-font: "Trade Winds";
+    --paragraph-font: Spectral, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #21a3fa;
+    color: #efefef;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #21a3fa;
+    color: #efefef;
+}
+
+.home-title {
+    color: #efefef;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #21a3fa;
+    color: black;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -20,12 +56,12 @@ a {
     text-align: center;
 }
 
-#hero-msg {
+h1 {
     text-align: center;
 }
 
-h1 {
-    text-align: center;
+h2 {
+    margin: 0;
 }
 
 #hero-msg {
@@ -59,35 +95,24 @@ section {
     color: #efefef;
 }
 
-body {
-    background-color: #21a3fa;
-    color: #efefef;
-}
-
-header {
-    background-color: #21a3fa;
-    color: #efefef;
-}
-
-nav a {
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: #21a3fa;
-    color: black;
-}
-
 .book {
     background-color: #21a3fa;
     color: #efefef;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join {
     background-color: #21a3fa;
     color: #efefef;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -103,28 +128,32 @@ nav a:hover {
 .msg {
     background-color: #21a3fa;
     color: #efefef;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #21a3fa;
     color: #efefef;
-}
-
-.home-title {
-    color: #efefef;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .msg h2 {
     color: #efefef;
+    font-family: var(--heading-font);
 }
 
 .msg p {
     color: #efefef;
+    font-family: var(--paragraph-font);
+    padding-bottom: 15px;
 }
 
 footer h3 {
     color: #efefef;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 footer a {
@@ -139,8 +168,34 @@ footer a:hover {
 
 .logo {
     width: 80px;
+    padding-top: 5px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+.social {
+    padding-top: 15px;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.card-img {
+    border: 10px solid #1b998b;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
 }
