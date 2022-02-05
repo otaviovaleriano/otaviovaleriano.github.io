@@ -24,6 +24,10 @@ header {
     margin-top: 10px;
 }
 
+.home-grid {
+    margin-top: 50px;
+}
+
 nav a {
     text-decoration: none;
     padding: 35px;
