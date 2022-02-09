@@ -1,0 +1,76 @@
+section {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.page {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: left;
+    gap: 15px;
+}
+
+body {
+    max-width: 60%;
+}
+
+.check {
+    margin-top: 20px;
+    gap: 15px;
+    text-align: left;
+}
+
+.name {
+    margin-top: 20px;
+    gap: 15px;
+    width: 90%;
+    height: 8%;
+}
+
+input {
+    text-align: left;
+}
+
+.email {
+    margin-top: 20px;
+    gap: 15px;
+    width: 90%;
+    height: 8%;
+}
+
+.img-left {
+    max-width: 80%;
+    grid-column: 1/2;
+    width: 100%;
+    padding: 0 50px;
+    max-height: 30%;
+}
+
+h1 {
+    gap: 15px;
+}
+
+button {
+    margin-top: 20px;
+    gap: 15px;
+    background-color: orange;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    width: 25%;
+    height: 8%;
+    font-size: large;
+}
+
+button:hover {
+    color: aqua;
+    background-color: brown;
+}
