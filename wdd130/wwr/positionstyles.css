@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    grid-gap: 20px;
+    grid-gap: 30px;
 }
 
 .red1 {
@@ -19,17 +19,17 @@
 }
 
 .green1 {
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     background-color: green;
-    margin-left: 32%;
+    margin-left: 20%;
 }
 
 .yellow1 {
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     background-color: gold;
-    margin-left: 32%;
+    margin-left: 20%;
 }
 
 .blue1 {
