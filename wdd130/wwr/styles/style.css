@@ -125,7 +125,7 @@ section {
 
 #background {
     height: 725px;
-    background-color: #5a4ae3;
+    background-color: #1b998b;
     color: #efefef;
     grid-column: 1/11;
     grid-row: 4/9;
@@ -162,7 +162,7 @@ section {
 }
 
 .msg {
-    background-color: #21a3fa;
+    background-color: #5a4ae3;
     color: #efefef;
     font-size: .8em;
     line-height: 1.5em;
