@@ -283,6 +283,12 @@ main section img {
 .riversimg {
     height: 350px;
     width: 80%;
+    transition: transform 1s;
+}
+
+.riversimg:hover {
+    opacity: .9;
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 900px) {
