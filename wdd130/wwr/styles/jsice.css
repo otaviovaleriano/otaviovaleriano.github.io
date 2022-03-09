@@ -1,0 +1,57 @@
+.circle {
+    text-align: center !important;
+    border: solid 2px black;
+    max-width: 30%;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.check {
+    font-size: 70px !important;
+    color: greenyellow !important;
+}
+
+img {
+    height: 250px;
+    width: 400px;
+}
+
+button {
+    width: 90px;
+    height: 40px;
+    background-color: rgb(23, 98, 238);
+    color: white;
+    border-radius: 5%;
+    border: 2px solid rgb(248, 242, 242);
+    box-shadow: 0 0 5px rgb(17, 17, 17);
+}
+
+h4 {
+    color: gray;
+}
+
+.close {
+    font-size: 70px !important;
+    color: red !important;
+}
+
+hr {
+    width: 50%;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+}
+
+.text {
+    color: rgb(11, 134, 235);
+    font-weight: bolder;
+}
+
+.info {
+    font-size: 70px !important;
+    color: rgb(0, 174, 255) !important;
+}
+
+.btnn {
+    background-color: gray;
+    color: aliceblue;
+}
