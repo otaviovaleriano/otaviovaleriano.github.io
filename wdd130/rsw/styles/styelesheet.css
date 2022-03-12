@@ -1,0 +1,94 @@
+/* header {
+    background-color: #f5fbfc;
+    color: #480fe6;
+    display: grid;
+    grid-template-columns: 150px auto;
+    opacity: 0.9;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #21a3fa;
+    color: rgb(250, 250, 250);
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+    color: #fdfdfd;
+    display: flex;
+    justify-content: space-around;
+    opacity: 0.9;
+}
+
+nav a:link {
+    color: #480fe6;
+}
+
+nav a:visited {
+    color: #480fe6;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-msg {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#hero-msg h4 {
+    color: white;
+    text-shadow: 0 0 30px #1a16f5;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+.logo {
+    width: 80px;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.logo-link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+body {
+    background-color: #001D3D;
+    background-image: linear-gradient(white, #003566, #001D3D);
+    color: #480fe6;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+} */
