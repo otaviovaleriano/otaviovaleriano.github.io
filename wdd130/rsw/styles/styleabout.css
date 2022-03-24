@@ -157,7 +157,7 @@ footer a:hover {
     box-shadow: 5px 5px 10px #caa93b;
     font-family: var(--paragraph-font);
     gap: 20px;
-    margin-top: -600px;
+    margin-top: -590px;
     max-height: 100px;
 }
 
@@ -166,7 +166,7 @@ footer a:hover {
     font-family: var(--paragraph-font);
     background-color: #5a4ae3;
     color: #FFC300;
-    margin-top: -380px;
+    margin-top: -400px;
     grid-column: 5/7;
     max-height: 500px;
     font-size: 15px;
@@ -175,7 +175,7 @@ footer a:hover {
 }
 
 .imgabout {
-    margin-top: -380px;
+    margin-top: -400px;
     grid-column: 2/4;
     width: 700px;
     margin-bottom: 50px;
