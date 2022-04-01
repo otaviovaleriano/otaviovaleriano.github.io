@@ -40,7 +40,26 @@
                 to be. With different styles of songs to enjoy, we provide a new experience every time you come to the Roller Skaters World. With DJs and a selected and diversified playlist you will have an amazing experience with us.
             </p>
         </div>
-        <img class="imgabout" alt='Roller-Skating-img' src="images/challenge-2.jfif " />
+        <div class="slideshow-container">
+            <div class="mySlides fade imgabout">
+                <img src="images/home-page1.jpg" style="width:100%; height: 500px;">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <div class="mySlides fade imgabout">
+                <img src="images/challenge-1.jpg" style="width:100%; max-height: 500px;">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div class="mySlides fade imgabout">
+                <img src="images/challenge-2.jfif" style="width:100%; height: 500px;">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+        <br>
+        <!-- <img class="imgabout" alt='Roller-Skating-img' src="images/challenge-2.jfif " /> -->
         <div class="textbellow ">
             <h2>Challenges</h2>
             <p>
@@ -71,6 +90,40 @@
         </div>
 
     </footer>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
 </body>
 
 </html>
