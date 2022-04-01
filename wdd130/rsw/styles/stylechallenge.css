@@ -231,6 +231,7 @@ main h2 {
     display: none;
 }
 
+.prev,
 .next {
     cursor: pointer;
     top: 50%;
@@ -243,22 +244,6 @@ main h2 {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    margin-left: 40px;
-}
-
-.prev {
-    cursor: pointer;
-    top: 50%;
-    width: auto;
-    margin-top: 100px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    margin-left: 250px;
 }
 
 .next {
