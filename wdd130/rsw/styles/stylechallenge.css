@@ -196,10 +196,13 @@ footer a:hover {
     /* margin-top: 370px; */
     grid-column: 7/10;
     max-height: 500px;
-    font-size: 18px;
+    line-height: 30px;
+    font-size: 16px;
     width: 600px;
     text-align: center;
     margin-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: 20px;
 }
 
