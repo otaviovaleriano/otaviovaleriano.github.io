@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #21f3fa;
-    background-image: linear-gradient(white, #21f3fa, #21cffa);
+    background-color: #003566;
+    background-image: linear-gradient(rgb(67, 65, 177), #003566, #001D3D);
     color: #480fe6;
     font-size: 22px;
     margin: 0;
@@ -14,8 +14,8 @@ body {
 }
 
 header {
-    background-color: #21f3fa;
-    color: #480fe6;
+    background-color: #003566;
+    color: #FFC300;
     display: grid;
     grid-template-columns: 150px auto;
     opacity: 0.9;
@@ -53,18 +53,18 @@ nav a:hover {
 
 nav {
     text-align: center;
-    color: #480fe6;
+    color: #fdfdfd;
     display: flex;
     justify-content: space-around;
     opacity: 0.9;
 }
 
 nav a:link {
-    color: #480fe6;
+    color: #FFC300;
 }
 
 nav a:visited {
-    color: #480fe6;
+    color: #FFC300;
 }
 
 a {
@@ -182,7 +182,7 @@ section {
 }
 
 footer {
-    background-color: #21f3fa;
+    background-color: #003566;
     color: #efefef;
     padding: 25px 50px;
     margin-top: 160px;
@@ -203,12 +203,12 @@ footer {
 }
 
 footer h3 {
-    color: #2711ec;
+    color: #FFC300;
     text-decoration: none;
 }
 
 footer a {
-    color: #2711ec;
+    color: #FFC300;
     text-decoration: none;
 }
 
@@ -292,6 +292,10 @@ main section img {
 .riversimg:hover {
     opacity: .9;
     transform: scale(1.1);
+}
+
+label {
+    color: #FFC300;
 }
 
 @media screen and (max-width: 900px) {
