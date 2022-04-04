@@ -96,12 +96,11 @@ nav a:visited {
 }
 
 .logo {
-    width: 80px;
+    width: 85px;
     padding-top: 5px;
     padding-left: 5px;
     margin-top: 5px;
     margin-left: 20px;
-    opacity: 90%;
 }
 
 .logo-link {
@@ -136,6 +135,8 @@ footer {
 footer h3 {
     color: #FFC300;
     text-decoration: none;
+    font-family: var(--heading-font);
+    letter-spacing: 1.5px;
 }
 
 footer a {

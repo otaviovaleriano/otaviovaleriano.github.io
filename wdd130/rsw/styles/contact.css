@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@500&family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=DM+Serif+Display&family=Great+Vibes&family=Prompt:ital,wght@1,200&family=Spectral:wght@500&family=Trade+Winds&display=swap');
 :root {
-    --heading-font: "Trade Winds";
-    --paragraph-font: Spectral, Helvetica, sans-serif;
+    --heading-font: 'Bangers', cursive;
+    --paragraph-font: 'Prompt', sans-serif;
 }
 
 body {
@@ -57,6 +57,7 @@ nav {
     display: flex;
     justify-content: space-around;
     opacity: 0.9;
+    font-family: var(--heading-font);
 }
 
 nav a:link {
@@ -205,6 +206,8 @@ footer {
 footer h3 {
     color: #FFC300;
     text-decoration: none;
+    font-family: var(--heading-font);
+    letter-spacing: 1.5px;
 }
 
 footer a {
@@ -218,8 +221,11 @@ footer a:hover {
 }
 
 .logo {
-    width: 80px;
+    width: 90px;
     padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 .logo-link {
@@ -296,6 +302,11 @@ main section img {
 
 label {
     color: #FFC300;
+    font-family: var(--heading-font);
+}
+
+button {
+    font-family: var(--heading-font);
 }
 
 @media screen and (max-width: 900px) {

@@ -40,6 +40,7 @@ nav {
     justify-content: space-around;
     opacity: 0.95;
     font-family: var(--heading-font);
+    letter-spacing: 1.5px;
 }
 
 nav a:link {
@@ -84,7 +85,7 @@ nav a:visited {
     color: white;
     text-shadow: 0 0 30px #FFC300;
     font-size: 50px;
-    margin-top: 600px;
+    margin-top: 615px;
     font-family: var(--heading-font);
     letter-spacing: 4px;
 }
@@ -99,7 +100,6 @@ nav a:visited {
     padding-left: 5px;
     margin-top: 5px;
     margin-left: 20px;
-    opacity: 90%;
 }
 
 .logo-link {
@@ -134,6 +134,8 @@ footer {
 footer h3 {
     color: #FFC300;
     text-decoration: none;
+    font-family: var(--heading-font);
+    letter-spacing: 1.5px;
 }
 
 footer a {
